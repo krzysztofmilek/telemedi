@@ -1,0 +1,44 @@
+.App {
+  text-align: left;
+  margin-top: 150px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.centerBody {
+  text-align: center;
+
+}
+
+table,
+td {
+  border: 1px solid #ccc;
+  padding:5px;
+
+}
+
+
+
+input {
+  padding: 10px 50px 10px 50px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 50px 10px 50px;
+  background-color: white;
+  border: 1px solid green;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: green;
+  color: white;
+
+}
